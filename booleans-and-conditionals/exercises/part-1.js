@@ -1,5 +1,9 @@
 // Declare and initialize the variables for exercise 1 here:
+<<<<<<< HEAD
 let engingeIndicatorLight = "red blinking";
+=======
+let engineIndicatorLight = "red blinking";
+>>>>>>> c1e6fb9a1c3db25fa0e8ac472b465d73c47485d8
 let spaceSuitsOn = true;
 let shuttleCabinReady = true;
 let crewStatus = spaceSuitsOn && shuttleCabinReady;
@@ -14,3 +18,4 @@ if (engineIndicatorLight === "green") {
 } else {
    console.log("engines are off");
 }
+// Engines are off will be printed.

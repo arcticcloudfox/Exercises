@@ -18,7 +18,11 @@ if (crewStatus) {
 if (computerStatusCode === 200) {
     console.log("Please stand by. Computer is rebooting.");
 } else if (computerStatusCode === 400) {
+<<<<<<< HEAD
     console.log("Success! Computer online");
+=======
+    console.log("Success! Computer online.");
+>>>>>>> c1e6fb9a1c3db25fa0e8ac472b465d73c47485d8
 } else {
     console.log("ALERT: Computer offline!");
 }
@@ -29,7 +33,11 @@ if (shuttleSpeed > 17500) {
 } else if (shuttleSpeed < 8000) {
     console.log("ALERT: Cannot maintain orbit!");
 } else {
+<<<<<<< HEAD
     console.log("Stable speed.");
+=======
+    console.log("Stable speed");
+>>>>>>> c1e6fb9a1c3db25fa0e8ac472b465d73c47485d8
 }
 
 // 4) PREDICT: Do the code blocks shown in the 'predict.txt' file produce the same result?
@@ -39,9 +47,13 @@ if (crewStatus && computerStatusCode === 200 && spaceSuitsOn) {
     console.log("WARNING. Not ready");
 }
 
+<<<<<<< HEAD
 if (!crewStatus || computerStatusCode !== 200 || spaceSuitsOn) {
     console.log("WARNING. Not ready");
 } else {
     console.log("All systems go");
 }
 console.log(/* "Yes" or "No" */);
+=======
+console.log("Yes");
+>>>>>>> c1e6fb9a1c3db25fa0e8ac472b465d73c47485d8
