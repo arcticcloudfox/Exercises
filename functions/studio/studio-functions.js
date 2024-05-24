@@ -22,6 +22,7 @@ console.log(reverseCharacters(str));
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.
+<<<<<<< HEAD
 function reverseCharacters(str2) {
     if (typeof(str2) === 'number') {
         str2 = String(str2);
@@ -33,6 +34,10 @@ function reverseCharacters(str2) {
 let numberStr = 1234;
 console.log(reverseCharacters(numberStr));
 // Part Three: Complete Reversal
+=======
+
+// Part Three: Complete Reversal - Create a new function with one parameter, which is the array we want to change. The function should:
+>>>>>>> 96805b3cd24b4a791e6e860c108ae28625c378ad
 
 // 1. Define and initialize an empty array.
 // 2. Loop through the old array.
