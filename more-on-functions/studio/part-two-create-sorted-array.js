@@ -39,15 +39,15 @@ function sortNumbersArray(array) {
   return sortedArray;
 }
 
-function sortNumbersArray(array) {
-  let sortedArray = [];
-  while (array.length !== 0) {
-    let value = findMinValue(array);
-    sortedArray.push(value);
-    array.splice(array.indexOf(value), 1);
-  }
-  return sortedArray;
-}
+// function sortNumbersArray(array) {
+//   let sortedArray = [];
+//   while (array.length !== 0) {
+//     let value = findMinValue(array);
+//     sortedArray.push(value);
+//     array.splice(array.indexOf(value), 1);
+//   }
+//   return sortedArray;
+// }
 
 console.log(sortNumbersArray(nums1));
 console.log(sortNumbersArray(nums2));
