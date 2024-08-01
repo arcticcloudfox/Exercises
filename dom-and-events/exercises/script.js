@@ -1,4 +1,4 @@
-function init () {
+function init() {
     const missionAbort = document.getElementById("abortMission");
     const button = document.getElementById("liftoffButton");
     const paragraph = document.getElementById("statusReport");
@@ -19,11 +19,13 @@ function init () {
     missionAbort.addEventListener('click', event => {
         let txt;
         let response = confirm("Are you sure you want to abort the mission?");
-if (response == true) {
-    txt = 'Mission aborted! Space shuttle returning home';
-} else {
-    txt = 'Staying on mission!';
-}
+        if (response == true) {
+            paragraph.innerHTML = 'Mission aborted! Space shuttle returning home';
+            console.log('Mission aborted! Space shuttle returning home');
+        } else {
+            paragraph.innerHTML = 'Staying on mission!';
+            console.log('Staying on mission!');
+        }
     });
 }
 
