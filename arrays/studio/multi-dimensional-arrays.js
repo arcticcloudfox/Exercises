@@ -32,17 +32,19 @@ if (question == 0) {
     console.log("Error. Incorrect number input. Please try again");
 }
 //5) Modify the code to query the user for BOTH a cabinet in cargoHold AND a particular item. Use the 'includes' method to check if the cabinet contains the selected item, then print “Cabinet ____ DOES/DOES NOT contain ____.”
-let question = input.question("Please enter desired cabinet from 0-3: ");
-if (question == 0) {
+let cabinet = input.question("Please enter desired cabinet from 0-3: ");
+if (cabinet == 0) {
     console.log(`You've selected the ${cargoHold[0]} cabinet`);
-} else if (question == 1) {
+} else if (cabinet == 1) {
     console.log(`You've selected the ${cargoHold[1]} cabinet`);
-} else if (question == 2) {
+} else if (cabinet == 2) {
     console.log(`You've selected the ${cargoHold[2]} cabinet`);
-} else if (question == 3) {
+} else if (cabinet == 3) {
     console.log(`You've selected the ${cargoHold[3]} cabinet`);
 } else {
     console.log("Error. Incorrect number input. Please try again");
 }
-let element = input.question("Now enter desired item: ");
-if ()
+let element = input.question("Now enter desired item from any cabinet: ");
+if (element == 1) {
+    
+}
